@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>music</title>
+    <link rel='stylesheet' href='./stylesheets/index.css' />
+  </head>
+  <body>
+  	<header>
+    	<h1>H5音乐可视化</h1>
+    </header>
+		<div class="left">
+			<p id="volume-wapper">
+				<span>音量</span>&emsp;<input id="volume" type="range" min="0" max="100" value="60">
+			</p>
+			<ul id="list">
+				<li title="与我常在.mp3">与我常在</li>
+				<li title="人鬼情未了.mp3">人鬼情未了</li>
+				<li title="身边的龙猫.mp3">身边的龙猫</li>
+				<li title="人生的回转木马.mp3">人生的回转木马</li>
+			</ul>
+			<p><input type="file" value="选择..." id="add"></p>
+		</div>
+		<div class="right" id="box">
+		</div>
+		<div class="btn">
+			<input class="active" type="button" id="columnar" value="columnar">
+			<input type="button" id="punctiform" value="punctiform">
+		</div>
+	<script src="./javascripts/MusicVisualizer.js"></script>
+	<script src="./javascripts/index.js"></script>
+  </body>
+</html>
