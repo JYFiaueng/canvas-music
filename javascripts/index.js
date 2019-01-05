@@ -29,7 +29,7 @@ for (i = 0, j = list.length; i < j; i++) {
 			list[k].className = '';
 		}
 		this.className = 'selected';
-		mv.play('/media/' + this.title);
+		mv.play('./media/' + this.title);
 	};
 }
 
